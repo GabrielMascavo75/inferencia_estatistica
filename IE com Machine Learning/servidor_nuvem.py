@@ -8,7 +8,7 @@ from sklearn.neighbors import KNeighborsClassifier #classificador KNN
 from sklearn.metrics import confusion_matrix, classification_report #confusion_matrix: gera matriz de confusão (VN, FP, FN, VP) e classification_report: gera relatório com precisão, recall e F1-score
 
 #Substituir pelo caminho correto do arquivo csv no drive
-caminho_servidores = '/content/drive/MyDrive/inferencia_estatistica/servidores_ti .csv'
+caminho_servidores = 'servidores_ti.csv'
 df = pd.read_csv(caminho_servidores)
 df.head()
 print("\n" + "="*60 + "\n")
